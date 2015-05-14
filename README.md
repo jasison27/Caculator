@@ -1,6 +1,7 @@
 Caculator
 =========
 Use lex & bison to implement a simple calculator.
+
 ## Dependencies
   - `lex`: lexical analyzer, "scanner" or "lexer"
   - `bison`: parser generator
@@ -24,6 +25,7 @@ caculator
 ```
 sudo make uninstall
 ```
+
 ## Functions
   - basic arithmetic: addition, subtraction, multiplication, division, MINUS, ABS.
   - Custom variables.
@@ -31,6 +33,7 @@ sudo make uninstall
   - Function for console printing: print.
   - Branch statement: if-then-else, while-do.
   - User-defined functions.
+
 ## TODO
   - Storage for last result.
   - Make user-defined functions more robust (such as add return).

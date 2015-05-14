@@ -28,17 +28,40 @@ sudo make uninstall
 ## Using the Calculator
 Example Usage:
 ```
-1.4+2*(2+3);
-sin(3.141592653/2);
-ac=log(1024);
-if (ac>0) then {ac=-1;} else {ac=1; ac=2*ac;}
-b=sqrt(100);
-while (b>0) do {b=b-1; print(b);}
-def myfunc(a,b,c) {(a+b+c)/3;}
-myfunc(1,2,3);
-myfunc(1,2);
-|-1|;
-do=-1;
+> 1.4 + 2*(2+3);
+= 11.4
+> sin(3.141592653/2);
+=    1
+> ac=log(1024);
+= 6.931
+> if (ac>0) then {ac=-1;} else {ac=1; ac=2*ac;} 
+=   -1
+> b=sqrt(100);
+=   10
+> while (b>0) do {b=b-1; print(b);}
+=    9
+=    8
+=    7
+=    6
+=    5
+=    4
+=    3
+=    2
+=    1
+=    0
+=    0
+> def myfunc(a,b,c) {(a+b+c)/3;}
+Function Defined myfunc
+> myfunc(1,2,3);
+=    2
+> myfunc(1,2);
+error: too few args in call to myfunc
+=    0
+> |-1|;
+=    1
+> do=-1;
+error: syntax error
+> 
 ```
 ## Directory
   - calculator.l: flex file

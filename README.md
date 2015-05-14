@@ -7,21 +7,21 @@ Use lex & bison to implement a simple calculator.
   - `bison`: parser generator
 
 ## Ubuntu Installation
-  1. Install flex and bison
+  - Install flex and bison
 ```
 sudo apt-get install flex bison
  ```
-  2. Make it in the current directory
+  - Make it in the current directory
 ```
 make
 ./calculator
 ```
-  3. (optional) Install it in `/home/bin`
+  - (optional) Install it in `/home/bin`
 ```
 sudo make install
 caculator
 ```
-  4. Uninstall it
+  - Uninstall it
 ```
 sudo make uninstall
 ```

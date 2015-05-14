@@ -17,7 +17,7 @@ clean:
 	rm *.o
 install:
 	make
-	mv calculator /bin
+	cp calculator /bin
 uninstall:
 	rm calculator
 	rm /bin/calculator

@@ -10,17 +10,17 @@ Use flex & bison to implement a simple calculator.
 ```
 sudo apt-get install flex bison
  ```
-  2-(1) Make it in the current directory
+  2. Make it in the current directory
 ```
 make
 ./calculator
 ```
-  2-(2) Install it in `/home/bin`
+  3. (optional) Install it in `/home/bin`
 ```
 sudo make install
 caculator
 ```
-  3. Uninstall it
+  4. Uninstall it
 ```
 sudo make uninstall
 ```

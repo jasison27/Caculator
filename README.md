@@ -2,8 +2,8 @@ Caculator
 =========
 Use lex & bison to implement a simple calculator.
 ## Dependencies
-  - lex: lexical analyzer, "scanner" or "lexer"
-  - bison: parser generator
+  - `lex`: lexical analyzer, "scanner" or "lexer"
+  - `bison`: parser generator
 
 ## Ubuntu Installation
   1. Install flex and bison
@@ -32,7 +32,7 @@ Function:
   - Function for console printing: print.
   - Branch statement: if-then-else, while-do.
   - User-defined functions.
-TODO:
+<br/>TODO:
   - Storage for last result.
   - Make user-defined functions more robust (such as add return).
   - Add error recovery.
@@ -81,5 +81,5 @@ error: syntax error
   - `calculator.l`: flex file
   - `calculator.y`: bison file
   - `funcs.c` & `funcs.h`: AST kernel
-  - `Makefile: make | make clean | make install | make uninstall
+  - `Makefile`: make | make clean | make install | make uninstall
 

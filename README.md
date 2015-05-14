@@ -1,9 +1,9 @@
 Caculator
 =========
 Use flex & bison to implement a simple calculator.
-## Dependencies:
-  - bison
+## Dependencies
   - flex
+  - bison
 
 ## Ubuntu Installation
   1. Install flex and bison
@@ -15,14 +15,15 @@ sudo apt-get install flex bison
 make
 ./calculator
 ```
-  2-(2) Install it in /home/bin
+  2-(2) Install it in `/home/bin`
 ```
 sudo make install
 caculator
 ```
-3. Uninstall it
+  3. Uninstall it
 ```
 sudo make uninstall
+```
 
 ## Using the Calculator
 Example Usage:

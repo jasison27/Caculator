@@ -24,23 +24,21 @@ caculator
 ```
 sudo make uninstall
 ```
-## Caculator Function and TODO
-Function:
+## Functions
   - basic arithmetic: addition, subtraction, multiplication, division, MINUS, ABS.
   - Custom variables.
   - Common mathematical functions: sqrt, exp, log, sin, cos.
   - Function for console printing: print.
   - Branch statement: if-then-else, while-do.
   - User-defined functions.
-<br/>TODO:
+## TODO
   - Storage for last result.
   - Make user-defined functions more robust (such as add return).
   - Add error recovery.
   - Memory to user-defined functions.
   - Not limited in float number caculation (Casio fraction).
 
-## Using the Calculator
-Example Usage:
+## Sample Usage
 ```
 > 1.4 + 2*(2+3);
 = 11.4
